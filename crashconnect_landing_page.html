@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrashConnectRGV | Get Legal Help After a Car Accident</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #212529; }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.pexels.com/photos/981119/pexels-photo-981119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.8em; margin-bottom: 15px; }
+    header h2 { font-size: 1.5em; margin-top: 10px; }
+    .cta-button {
+      background-color: #e63946;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 25px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover { background-color: #c02735; }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    .steps, .trust { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+    .step, .trust-point, .testimonial {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .form-section {
+      background: #fff;
+      padding: 50px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .disclaimer {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .visual-section {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .visual-section img {
+      max-width: 480px;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .testimonials {
+      background: linear-gradient(135deg, #fceabb, #f8b500);
+      color: #212529;
+      padding: 40px 20px;
+      border-radius: 8px;
+      margin-top: 40px;
+      text-align: center;
+      position: relative;
+    }
+    .testimonial {
+      display: none;
+    }
+    .testimonial.active {
+      display: block;
+      font-style: italic;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+    footer h3 { margin: 0; font-size: 1.3em; }
+    @media(max-width: 768px) {
+      .steps, .trust { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Injured in an Accident?</h1>
+    <h2>Let Us Help You Get the Compensation You Deserve</h2>
+    <p>Free case evaluation. No fees. Just justice.</p>
+    <a href="#form"><button class="cta-button">Get Your Free Case Review Now</button></a>
+    <p style="margin-top: 15px; font-size: 1.2em;">📞 Call Now: (956) 448-5978</p>
+  </header>
+
+  <section class="visual-section">
+    <img src="https://images.pexels.com/photos/981119/pexels-photo-981119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Car Crash Scene">
+    <img src="https://images.pexels.com/photos/6129184/pexels-photo-6129184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Injured Person Receiving Help">
+  </section>
+
+  <section class="steps">
+    <div class="step">
+      <h3>1. You Contact Us</h3>
+      <p>Fill out a quick form and tell us what happened.</p>
+    </div>
+    <div class="step">
+      <h3>2. We Evaluate Your Case</h3>
+      <p>Free consultation, fast response—no obligation.</p>
+    </div>
+    <div class="step">
+      <h3>3. We Connect You</h3>
+      <p>Get matched with a trusted RGV attorney right away.</p>
+    </div>
+    <div class="step">
+      <h3>4. You Focus on Recovery</h3>
+      <p>While your attorney fights for maximum compensation.</p>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="trust-point">
+      <h3>✔️ No cost to you – ever</h3>
+    </div>
+    <div class="trust-point">
+      <h3>✔️ Fast, friendly, and confidential service</h3>
+    </div>
+    <div class="trust-point">
+      <h3>✔️ Local attorneys you can trust</h3>
+    </div>
+    <div class="trust-point">
+      <h3>✔️ We only work with proven professionals</h3>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Clients Are Saying</h2>
+    <div class="testimonial active" id="t1">
+      <p>"CrashConnectRGV helped me find a great attorney after my accident. The process was easy and stress-free!" – Maria G., Harlingen</p>
+    </div>
+    <div class="testimonial" id="t2">
+      <p>"They connected me with a lawyer who got my medical bills covered and more. Highly recommend!" – Alex M., Brownsville</p>
+    </div>
+    <div class="testimonial" id="t3">
+      <p>"After the accident, I didn’t know what to do. CrashConnectRGV stepped in and guided me to real help." – Luis R., McAllen</p>
+    </div>
+  </section>
+
+  <section id="form" class="form-section">
+    <h2>Start Your FREE Case Review Now</h2>
+    <form action="https://formspree.io/f/xdoqknbp" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <textarea name="description" rows="4" placeholder="Brief Description of the Accident"></textarea>
+      <button type="submit" class="cta-button">Submit Request</button>
+    </form>
+    <p class="disclaimer">CrashConnectRGV is not a law firm. All legal services are provided by licensed attorneys in our network.</p>
+    <p class="disclaimer">Our network includes award-winning attorneys serving McAllen, Brownsville, Harlingen, and surrounding areas.</p>
+  </section>
+
+  <footer>
+    <h3>CrashConnectRGV</h3>
+    <p>Connecting you to trusted legal help when you need it most.</p>
+    <p>📞 Call Now: (956) 448-5978</p>
+    <p>&copy; 2025 CrashConnectRGV. All rights reserved.</p>
+  </footer>
+</body>
+</html>
