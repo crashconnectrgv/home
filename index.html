@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrashConnectRGV - Personal Injury Legal Help</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --blue: #002855;
+      --orange: #fcb900;
+      --gray: #f8f9fa;
+      --text: #333;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background-color: white;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      background: url('https://images.pexels.com/photos/981119/pexels-photo-981119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1600') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    header .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    header ul {
+      list-style: none;
+      margin-top: 15px;
+    }
+    header ul li {
+      margin-bottom: 5px;
+      font-size: 1.1rem;
+    }
+    .cta-btn {
+      margin-top: 25px;
+      padding: 14px 32px;
+      background-color: var(--orange);
+      color: black;
+      font-weight: 600;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section.gray { background-color: var(--gray); }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .features {
+      display: flex;
+      gap: 30px;
+      text-align: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .feature {
+      flex: 1;
+      min-width: 250px;
+    }
+    .feature i {
+      font-size: 2rem;
+      color: var(--orange);
+      margin-bottom: 10px;
+    }
+
+    .split {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .split .text, .split .image {
+      flex: 1;
+      min-width: 280px;
+    }
+    .split img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .testimonial {
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+    .testimonial img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: none;
+}
+    .testimonial p {
+      font-style: italic;
+      margin: 20px auto;
+      max-width: 600px;
+      display: none;
+    }
+    .testimonial .active {
+      display: block;
+    }
+
+    .category-icons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .category {
+      border: 2px solid #ddd;
+      border-radius: 50px;
+      padding: 12px 24px;
+      font-weight: 600;
+    }
+
+    .form-section {
+      background: url('https://images.pexels.com/photos/6129184/pexels-photo-6129184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800&w=1600') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .form-container {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+    }
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 5px;
+    }
+    .form-container button {
+      background-color: var(--orange);
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+
+    footer {
+      background-color: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Have You Been Injured in an Accident?</h1>
+      <ul>
+        <li>• Professionalism</li>
+        <li>• Aggressive representation</li>
+        <li>• Experience</li>
+      </ul>
+      <a href="#contact"><button class="cta-btn">GET IN TOUCH</button></a>
+    </div>
+  </header>
+
+  <section class="section features">
+    <div class="feature">
+      <i class="fas fa-trophy"></i>
+      <h3>Award-Winning Attorneys</h3>
+      <p>We connect you with proven legal experts who deliver results.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-chart-line"></i>
+      <h3>Proven Track Record</h3>
+      <p>Decades of combined experience across South Texas.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-handshake"></i>
+      <h3>Free & Confidential</h3>
+      <p>No fees to get started. No obligations. Just justice.</p>
+    </div>
+  </section>
+
+  <section class="section gray split">
+    <div class="image">
+      <img src="https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg" alt="Help After Accident">
+    </div>
+    <div class="text">
+      <h2>Get the Money and Medical Help You Deserve</h2>
+      <p>If you’ve been injured in a car accident, you don’t have to fight alone. CrashConnectRGV connects you to trusted attorneys who handle your case while you recover.</p>
+    </div>
+  </section>
+
+  <section class="section split">
+    <div class="text">
+      <h2>Protecting the Injured and Their Families</h2>
+      <p>Your recovery matters. Our attorney network serves McAllen, Brownsville, Harlingen, and surrounding RGV areas.</p>
+    </div>
+    <div class="image">
+      <img src="https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg" alt="Family Help">
+    </div>
+  </section>
+
+  <section class="testimonial section gray">
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" class="active" alt="John">
+    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria">
+    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Alex">
+    <p class="active">“CrashConnectRGV helped me recover compensation and peace of mind. I didn’t have to lift a finger.” — John S.</p>
+    <p>“I was stressed and confused after my accident. They paired me with a great attorney who handled everything.” — Maria G.</p>
+    <p>“The process was quick and easy, and I got the money I deserved. Thank you CrashConnectRGV!” — Alex R.</p>
+  </section>
+
+  <section class="section categories">
+    <h2>You Need Help, That's What We're Here For</h2>
+    <div class="category-icons">
+      <div class="category">Car Accident</div>
+      <div class="category">Truck Accident</div>
+      <div class="category">Bicycle Accident</div>
+      <div class="category">Product Liability</div>
+      <div class="category">Workplace Injury</div>
+    </div>
+  </section>
+
+  <section class="form-section" id="contact">
+    <div class="form-container">
+      <h2>Get in Touch Now!</h2>
+      <form action="https://formspree.io/f/xdoqknbp" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="message" rows="4" placeholder="Comments or details..."></textarea>
+        <button type="submit">Submit Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 Call Now: (956) 448-5978</p>
+    <p>&copy; 2025 CrashConnectRGV. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const testimonialTexts = document.querySelectorAll('.testimonial p');
+    const testimonialImages = document.querySelectorAll('.testimonial img');
+    let index = 0;
+    setInterval(() => {
+      testimonialTexts.forEach(t => t.classList.remove('active'));
+      testimonialImages.forEach(img => img.classList.remove('active'));
+      index = (index + 1) % testimonialTexts.length;
+      testimonialTexts[index].classList.add('active');
+      testimonialImages[index].classList.add('active');
+    }, 5000);
+  </script>
+
+</body>
+</html>
