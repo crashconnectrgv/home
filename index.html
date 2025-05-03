@@ -249,13 +249,15 @@
   <section class="form-section" id="contact">
     <div class="form-container">
       <h2>Get in Touch Now!</h2>
-      <form action="https://formspree.io/f/xdoqknbp" method="POST">
-        <input type="text" name="name" placeholder="Full Name" required>
-        <input type="tel" name="phone" placeholder="Phone Number" required>
-        <input type="email" name="email" placeholder="Email">
-        <textarea name="message" rows="4" placeholder="Comments or details..."></textarea>
-        <button type="submit">Submit Now</button>
-      </form>
+     <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="6d71eed0-1e1c-4740-a4ad-f4eaecddddfd">
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="tel" name="phone" placeholder="Phone Number" required>
+  <input type="email" name="email" placeholder="Email">
+  <textarea name="message" rows="4" placeholder="Comments or details..." required></textarea>
+  <button type="submit">Submit Now</button>
+</form>
+
     </div>
   </section>
 
